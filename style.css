@@ -1,0 +1,51 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.produto{
+    background-color: gold;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+#carrinhoAba{
+    display: flex;
+    margin-top: 10px;
+}
+#carrinho{
+    font-size: 20px;
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    width: 130px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer; 
+}
+#quantidadeProdutos{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+    margin-left: -20px;
+}
+ul{
+    display: none;
+    list-style: none;
+}
+body.mostrarLista ul{
+    display: block;
+}
+li{
+    font-size: 18px;
+}
